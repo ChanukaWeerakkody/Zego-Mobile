@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ProgressBar?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="subPane" prefHeight="606.0" prefWidth="1009.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ijse.lms.controller.initPreLoaderController">
+   <children>
+      <ImageView fitHeight="678.0" fitWidth="1024.0" layoutX="-3.0" layoutY="-1.0" opacity="0.91" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assests/phone-with-music-icon-headphones-blurred-background-music-listening-concept-copy-space.jpg" />
+         </image>
+      </ImageView>
+      <Rectangle fx:id="rceContainer" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="19.0" layoutX="29.0" layoutY="502.0" stroke="BLACK" strokeType="INSIDE" width="935.0" />
+      <Label fx:id="lblLoading" layoutX="37.0" layoutY="507.0" prefHeight="45.0" prefWidth="156.0" text="Loading...." textFill="WHITE" AnchorPane.bottomAnchor="125.0" AnchorPane.leftAnchor="37.0" AnchorPane.rightAnchor="816.0">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Label>
+      <ProgressBar layoutX="37.0" layoutY="560.0" prefHeight="18.0" prefWidth="927.0" style="-fx-background-color: blue;" />
+      <Label fx:id="lblLoard" layoutX="68.0" layoutY="88.0" text="LIBRARY MANAGEMENT SYSTEM" textFill="WHITE">
+         <font>
+            <Font size="60.0" />
+         </font>
+      </Label>
+      <Label layoutX="263.0" layoutY="96.0" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="60.0" />
+         </font>
+      </Label>
+      <Label layoutX="68.0" layoutY="150.0" text="Horana" textFill="WHITE">
+         <font>
+            <Font size="45.0" />
+         </font>
+      </Label>
+      <Label layoutX="71.0" layoutY="198.0" text="V4.0" textFill="WHITE">
+         <font>
+            <Font size="23.0" />
+         </font>
+      </Label>
+      <Label layoutX="303.0" layoutY="616.0" text="Copyright C 2022 Institute of Java Software Engineering " textFill="#f5f5f5">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Label>
+      <Rectangle fx:id="rceLoarding" arcHeight="5.0" arcWidth="5.0" fill="#195894" height="19.0" layoutX="29.0" layoutY="502.0" stroke="BLACK" strokeType="INSIDE" width="39.0" />
+   </children>
+</AnchorPane>

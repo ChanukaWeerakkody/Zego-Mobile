@@ -1,0 +1,58 @@
+
+.Parent{
+    -fx-background-color: white;
+}
+.left-pane{
+    -fx-background-color: linear-gradient(to right, #232326, #341c36);
+}
+
+.right-pane{
+    -fx-background-color: linear-gradient(to right, #8c8585, #d1cdd3);
+}
+.right-button{
+    -fx-background-color: linear-gradient(to right, #232326, #341c36);
+}
+.btn-radius{
+    -fx-background-radius: 20px;
+}
+.right-button:hover{
+    -fx-background-color: linear-gradient(to right, #4a224b, #a71067);
+}
+.back-button{
+    -fx-background-color: linear-gradient(to right, #5c1762, #9f859f);
+}
+.center-pane{
+    -fx-background-color: linear-gradient(to right, #602465, #821d8a);
+}
+.add-btn{
+    -fx-background-color: #275578;
+    -fx-background-radius: 20px;
+}
+.add-btn:hover{
+    -fx-background-color: #2975ab;
+}
+.update-btn{
+    -fx-background-color: #277737;
+    -fx-background-radius: 20px;
+}
+.update-btn:hover{
+    -fx-background-color: #30ab67;
+}
+
+.delete-btn{
+    -fx-background-color: #822730;
+    -fx-background-radius: 20px;
+}
+.delete-btn:hover{
+    -fx-background-color: #b52a38;
+}
+.search-btn{
+    -fx-background-color: #7c3186;
+    -fx-background-radius: 20px;
+}
+.search-btn:hover{
+    -fx-background-color: #9328a4;
+}
+.right-search{
+    -fx-background-color: linear-gradient(to right, #595959, #aaa8ab);
+}
